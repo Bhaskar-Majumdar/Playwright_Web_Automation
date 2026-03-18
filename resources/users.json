@@ -294,5 +294,101 @@
     "password": "1234",
     "phoneNumber": "01876559161",
     "address": "738 Wiza Canyon"
+  },
+  {
+    "firstName": "Shane",
+    "lastName": "Ullrich",
+    "email": "majumdar97b+7267@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01618533384",
+    "address": "6799 Nolan Way"
+  },
+  {
+    "firstName": "Brandon",
+    "lastName": "Feeney",
+    "email": "majumdar97b+3190@gmail.com",
+    "password": "Test@12345",
+    "phoneNumber": "01508295287",
+    "address": "412 Veterans Memorial Drive"
+  },
+  {
+    "firstName": "Alphonso",
+    "lastName": "Jakubowski",
+    "email": "majumdar97b+1159@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01363088021",
+    "address": "868 Quincy Spurs"
+  },
+  {
+    "firstName": "Lora",
+    "lastName": "Ebert",
+    "email": "majumdar97b+5652@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01551313345",
+    "address": "8678 Weber Tunnel"
+  },
+  {
+    "firstName": "Luke",
+    "lastName": "Marks",
+    "email": "majumdar97b+9678@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01756475575",
+    "address": "6052 Runte Brooks"
+  },
+  {
+    "firstName": "Grace",
+    "lastName": "Cummings",
+    "email": "majumdar97b+7367@gmail.com",
+    "password": "Test@12345",
+    "phoneNumber": "01769739047",
+    "address": "40131 Kirlin Shoals"
+  },
+  {
+    "firstName": "Johanna",
+    "lastName": "Kshlerin",
+    "email": "majumdar97b+2943@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01701447053",
+    "address": "7316 Brooklyn Camp"
+  },
+  {
+    "firstName": "Skye",
+    "lastName": "Hane",
+    "email": "majumdar97b+2936@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01810952165",
+    "address": "66199 Prospect Street"
+  },
+  {
+    "firstName": "Clovis",
+    "lastName": "Boehm",
+    "email": "majumdar97b+5869@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01831123293",
+    "address": "292 Jarrod Knoll"
+  },
+  {
+    "firstName": "Ashley",
+    "lastName": "Schultz",
+    "email": "majumdar97b+6008@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01463814735",
+    "address": "305 Skyline Drive"
+  },
+  {
+    "firstName": "Erin",
+    "lastName": "Wolf",
+    "email": "majumdar97b+5463@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01739059235",
+    "address": "9306 Addie Gardens"
+  },
+  {
+    "firstName": "Eduardo",
+    "lastName": "Kirlin",
+    "email": "majumdar97b+7767@gmail.com",
+    "password": "Test@12345",
+    "phoneNumber": "01413763514",
+    "address": "542 N Union Street"
   }
 ]

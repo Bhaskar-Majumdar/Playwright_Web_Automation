@@ -38,8 +38,7 @@ test("Update user gmail from profile", async ({ page }) => {
    // logout
   await profilePage.logout();
 
-  // -------- LOGIN WITH NEW EMAIL --------
-
+  // LOGIN WITH NEW EMAIL 
   await loginPage.userLogin(newEmail, user.password);
   console.log("Login using updated email:", newEmail);
 
@@ -48,8 +47,7 @@ test("Update user gmail from profile", async ({ page }) => {
   // logout again
   await profilePage.logout();
 
-  // -------- LOGIN WITH OLD EMAIL --------
-
+  // LOGIN WITH OLD EMAIL
   await loginPage.userLogin(user.email, user.password);
   console.log("Trying login with old email:", user.email);
 

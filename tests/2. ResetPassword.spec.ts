@@ -47,13 +47,13 @@ test("Negative Test - Empty Email", async ({ page }) => {
 
 
  test("Set New Password From Reset Link", async ({ page }) => {
-  // 1️⃣ Polling loop: email wait করা
+  // Polling loop: email wait করা
   let emailBody;
- for (let i = 0; i < 8; i++) { // বার check
+ for (let i = 0; i < 8; i++) {
   emailBody = await readLatestRegistrationEmail();
 
   if (emailBody && emailBody.includes("Click on the following link to reset your password")) {
-    break; // Reset email পাওয়া গেলে stop
+    break; // Found Reset email then stop
   }
   await page.waitForTimeout(6000); // 5s wait
  }
@@ -62,7 +62,7 @@ test("Negative Test - Empty Email", async ({ page }) => {
    throw new Error("Reset email not received");
  }
 
- // reset link extract
+ // Reset link extract
  const resetLinkMatch = emailBody.match(/https:\/\/dailyfinance\.roadtocareer\.net\/reset-password\?token=[a-z0-9]+/);
 
  if (!resetLinkMatch) {
@@ -75,24 +75,24 @@ test("Negative Test - Empty Email", async ({ page }) => {
  const reset = new ResetPassword(page);
  await reset.setNewPassword(newPassword);
 
-// ✅ Update users.json with new password
+// Update users.json with new password
 updatePassword(user.email, newPassword);
 
  await expect(page.getByText(/Password reset successfully/i)).toBeVisible();
  });
 
 
-  test.skip("Login With New Password", async ({ page }) => {
+  // test.skip("Login With New Password", async ({ page }) => {
 
-    await page.goto("https://dailyfinance.roadtocareer.net/login");
+  //   await page.goto("https://dailyfinance.roadtocareer.net/login");
 
-    await page.getByRole("textbox", { name: "Email" }).fill(user.email);
-    await page.getByLabel("Password").fill(newPassword);
+  //   await page.getByRole("textbox", { name: "Email" }).fill(user.email);
+  //   await page.getByLabel("Password").fill(newPassword);
 
-    await page.getByRole("button", { name: "LOGIN" }).click();
+  //   await page.getByRole("button", { name: "LOGIN" }).click();
 
-    await expect(page).toHaveURL(/user/);
+  //   await expect(page).toHaveURL(/user/);
 
-  });
+  // });
 
 });
