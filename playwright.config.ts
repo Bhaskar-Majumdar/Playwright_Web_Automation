@@ -37,7 +37,9 @@ export default defineConfig({
     actionTimeout: 10000,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    headless : false,
+
+    headless: process.env.CI ? true : false,
+   // headless : false,
     trace: 'on-first-retry',
 
     viewport: null, 
