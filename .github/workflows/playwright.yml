@@ -5,14 +5,18 @@ on:
     branches: ["main"]
   pull_request:
     branches: ["main"]
+  schedule:
+    - cron: "59 17 * * 5" 
 
 env:
   CI: true
   gmail_access_token: ${{ secrets.GMAIL_ACCESS_TOKEN }}
+  
 jobs:
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
