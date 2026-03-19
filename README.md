@@ -12,14 +12,14 @@ In this project, I have automated end-to-end workflows of DailyFinance using Pla
 8. Now logout and login with the updated gmail account. Assert that using new email login is successful and using previous email login is failed.
 
 # Technology:
-Tool: Playwright
-IDE: VS Code
-Language: TypeScript
+1. Tool: Playwright
+2. IDE: VS Code
+3. Language: TypeScript
 
 # How to Run the Project
-Clone this project
-Open cmd in the root folder.
-Give the following command: npx playwright test
+1. Clone this project
+2. Open cmd in the root folder.
+3. Give the following command: npx playwright test
 
 # Playwright Report Screenshot
 <img width="994" height="821" alt="Screenshot 2026-03-20 at 12 54 46 AM" src="https://github.com/user-attachments/assets/2add4dbb-9466-4da4-8132-0dc26fff7ce7" />
