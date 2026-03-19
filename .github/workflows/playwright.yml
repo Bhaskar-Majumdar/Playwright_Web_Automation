@@ -7,7 +7,7 @@ on:
     branches: ["main"]
   schedule:
     - cron: "59 17 * * 5" 
-
+    
 env:
   CI: true
   gmail_access_token: ${{ secrets.GMAIL_ACCESS_TOKEN }}

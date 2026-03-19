@@ -47,7 +47,7 @@ test("Negative Test - Empty Email", async ({ page }) => {
 
 
  test("Set New Password From Reset Link", async ({ page }) => {
-  // Polling loop: email wait করা
+  // Polling loop: for email wait
   let emailBody;
  for (let i = 0; i < 8; i++) {
   emailBody = await readLatestRegistrationEmail();
