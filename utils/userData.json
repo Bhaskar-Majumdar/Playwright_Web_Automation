@@ -1,3 +1,66 @@
 [
-  
+  {
+    "firstName": "Darrel",
+    "lastName": "Morissette",
+    "email": "majumdar97b+84687@gmail.com",
+    "password": "pWE9lO9XJSu4det",
+    "phoneNumber": "01521304287",
+    "address": "Caspershire"
+  },
+  {
+    "firstName": "Geraldine",
+    "lastName": "",
+    "email": "majumdar97b+84667@gmail.com",
+    "password": "wGT_XUCrQrVufMx",
+    "phoneNumber": "01521307687",
+    "address": ""
+  },
+  {
+    "firstName": "Ashly",
+    "lastName": "Stracke",
+    "email": "majumdar97b+09667@gmail.com",
+    "password": "wCP9USACkJtwhZN",
+    "phoneNumber": "01521304652",
+    "address": "South Mckenzie"
+  },
+  {
+    "firstName": "Tom",
+    "lastName": "",
+    "email": "majumdar97b+54077@gmail.com",
+    "password": "ZamKbRmPN_QE_zv",
+    "phoneNumber": "01521304982",
+    "address": ""
+  },
+  {
+    "firstName": "Bridie",
+    "lastName": "Rolfson",
+    "email": "majumdar97b+12867@gmail.com",
+    "password": "OC20wMquWVOhx_d",
+    "phoneNumber": "01521304212",
+    "address": "Lake Eleanora"
+  },
+  {
+    "firstName": "Ferne",
+    "lastName": "",
+    "email": "majumdar97b+17069@gmail.com",
+    "password": "ZnO9ateiMXiSVUH",
+    "phoneNumber": "01521304199",
+    "address": ""
+  },
+  {
+    "firstName": "Grayce",
+    "lastName": "Cassin",
+    "email": "majumdar97b+91365@gmail.com",
+    "password": "b_y1Cn6QIa3NOCc",
+    "phoneNumber": "01521104282",
+    "address": "Boscoworth"
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "",
+    "email": "majumdar97b+31672@gmail.com",
+    "password": "Ik_SZ2AMCdh0LvS",
+    "phoneNumber": "01521305284",
+    "address": ""
+  }
 ]
